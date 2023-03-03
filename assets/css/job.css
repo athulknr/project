@@ -1,0 +1,52 @@
+/* job */
+.services {
+	margin-top: 140px;
+}
+
+.service-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.service-item .down-content {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.service-item .down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.service-item .down-content p {
+	margin-bottom: 20px;
+}
+
+/* butten */
+
+.btn{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
